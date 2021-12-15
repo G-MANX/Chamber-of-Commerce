@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+    <title>Aborigine, Keta  - Join</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join Us!">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+      <header>
+        <div id="logoDiv">
+            <img id="logo" src="images/logo.jpg" alt="logo">
+            <h1>Aborigine Commerce</h1>
+          </div>
+          <nav>
+            <ul class="navBar"> 
+                <li><a class="menu" href="#"><div class="linkName">&#9776;</div></a></li>    
+                <li><a href="index.html"><div class="linkName">Home</div></a></li>
+                <li><a href="city.html" ><div class="linkName">City</div></a></li>
+                <li><a href="join.html" ><div class="linkName" id="activeLink">Join</div></a></li>
+                <li><a href="directory.html" ><div class="linkName">Directory</div></a></li>
+                <li><a href="contact.html" ><div class="linkName" >Contact Us</div></a></li>
+            </ul>
+          </nav>
+      </header>
+      <main>
+      <div id="marginDefiner">
+      <h2 id="registerH2">Register to join the Chamber of Commerce</h2>
+      <form method="get" action="thanks.html">
+        <h3>Personal Information:</h3>
+        <div class="formInfo">
+        <label for="fname">*First Name:</label>
+          <input type="text" name="fname" id="fname" placeholder="First Name" required>
+
+        <label for="lname">*Last Name:</label>
+          <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
+        <label for="lname">Title:</label>
+          <input type="text" name="title" id="title" placeholder="Title">
+
+        <label for="email">*Email:</label>
+          <input type="email" name="email" id="email" placeholder="user@email.org" required>
+             
+        <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" placeholder="000-000-0000">
+        </div>
+        <h3>Business Information:</h3>
+        <div class="formInfo">
+        <label for="busname">*Business Name:</label>
+          <input type="text" name="busname" id="busname"  placeholder="Business Name" required>
+
+        <label for="busAdd">Business Address:</label>
+          <input type="text" name="busAdd" id="busAdd"  placeholder="Business Address">
+       
+        <label for="busWeb">Business Website:</label>
+          <input type="text" name="busWeb" id="busWeb"  placeholder="Business Website">
+
+        <label for="description">Business Description:</label>
+          <textarea name="description" id="description"></textarea>
+
+
+        <label for="member">Membership:</label>
+            <select id="member">
+                <option disabled selected>Select Membership:</option>
+                <option value="noneProfit">Non-Profit ($100)</option>
+                <option value="bronze">Bronze ($200)</option>
+                <option value="silver">Silver ($400)</option>
+                <option value="gold">Gold ($1000)</option>
+        </select>
+        
+          <ul id="key">
+            <li class="key"><span>Non-Profit:</span> Access to local meetings, subscription to the monthly newsletter, directory listing.</li>
+            <li class="key"><span>Bronze:</span> Benefits of Non-Profit, basic advertisement pack, business trainings.</li>
+            <li class="key"><span>Silver:</span> Benefits of Bronze, advanced advertisement pack, first alert rentals, luncheos.</li>
+            <li class="key"><span>Gold: </span>Benefits of Silver, premium advertisement pack, social media posts, reserved parking at chamber meetings.</li>
+          </ul>
+        
+        <input type="submit" value="Submit" name="submit" id="submit">
+        <p id="note">* Indicates required</p>
+      </div>
+      </form>
+    </div>
+    </main>
+      <footer>
+        <div id="footerContent">
+            <div id="footleft">
+              <ul>
+                  <li>Nelson Azumah</li> 
+                  <li>WDD 230</li>
+                  <li>Images from</li>
+                  <li> Pixabay</li>
+              </ul>
+            </div>
+            <div id="footright">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="https://www.facebook.com/">Social Media</a></li>
+                <li><a href="join.html">Join Us!</a></li>
+              </ul>
+            </div>
+          </div>
+      </footer>
+      <script  src="js/join.js"></script>
+      <script  src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+            google: {
+            families: ['IM Fell Double Pica', 'Tajawal']
+          }
+        });
+          </script>
+    </body>
+    </html>

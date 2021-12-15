@@ -1,0 +1,184 @@
+@media only screen and (min-width: 450px){ 
+    /* General Css */
+    .navBar li:first-child {
+        display: none;
+    }
+    .navBar li{
+        display:block;
+    }
+    .navBar{
+        display:flex;
+        background-color: white;
+        text-align: left;
+    }
+    a{
+        text-decoration:none;
+    }
+    li{
+        list-style-type: none;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    /*Home page css*/
+    #homeBody{
+        background-image: url('../images/riverMed.jpg');
+        min-height: 300px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #marginDefiner{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+        border-left:1px solid #e0bb20;
+        border-right:1px solid #e0bb20;
+    }
+
+    #commerce img{
+        filter: brightness(0.30);
+        width:100%;
+        margin-top:10px;
+    }
+    #chamberH2{
+        position:absolute;
+        z-index: 1;
+        color:white;
+        font-family: 'IM Fell Double Pica', serif;
+        margin-left:25px;
+    }
+    #articleDiv{
+        background-color:#5f5f5f;
+    }
+    #chamberArticle{
+        margin:0 auto;
+        max-width:80%;
+    }
+    hr{
+        display:none;
+    }
+    #chamberDiv{
+        position: relative;
+    }
+    #articleP{
+        position:absolute;
+        z-index:1;
+        text-align:center;
+        color:white;
+        top:-200px;
+    }
+    #joinBtn{
+        z-index:1;
+        margin-bottom:10px;
+    }
+    #weather{
+        display:flex;
+    }
+    .herocast{
+        border-right:2px solid black;
+        margin-right: 25px;
+        width:300px;
+    }
+    #forecastheader{
+        margin-top:0;
+    }
+    #contactSection{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+    }
+    #contactContent{
+        grid-column:2/3;
+        grid-row:1/2;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+    #adsDiv{
+        display:flex;
+    }
+    .ad{
+        max-width:30%;
+    }
+    /*City Page CSS*/
+    #imageDiv{
+        margin: 0 auto;
+    }
+    #imageDiv h2{
+        font-size:3em;
+        color:black;
+        position:absolute;
+        margin-top: 0;
+        top:125px;
+    }
+    #marginDefinerCity{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+    }
+    #historyArticle{
+        display:flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    #historyContent{
+        width:60%;
+        margin-right: 100px;
+    }
+    #historyContent p{
+        margin:0 auto;
+        width:80%;
+    }
+    #historyImg img{
+        height:300px;
+    }
+
+    /*Contact page*/
+    #marginDefinerContact{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+        border-left:1px solid #e0bb20;
+        border-right:1px solid #e0bb20;
+    }
+    #map1{
+        margin-left:10px;
+    }
+    #contactUs{
+        margin-left:100px;
+    }
+    #boardDirectors{
+        margin-left:100px;
+    }
+    
+    /*directory page css*/
+    #viewDiv{
+        display:flex;
+    }
+    .card{
+        width:345px;
+    }
+    
+    #viewDiv input{
+        width:80px;
+        border:none;
+        font-weight: bold;
+        background:none;
+        color:#e0bb20;
+        outline:none;
+    }
+    #viewDiv input:hover{
+        color:#723535;
+    }
+    #viewDiv input:active{
+        color:#e0bb20;
+    }
+    
+    #grid{
+        margin-left:20px;
+    }
+    #cardDisplay{
+        display:block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
