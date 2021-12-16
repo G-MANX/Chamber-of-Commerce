@@ -1,6 +1,6 @@
 //getting information from JSON file to populate cards
 const newURL = 'businesses.JSON';
-console.log(newURL);
+console.log(newURL); 
 fetch(newURL)
   .then(function (response) {
     return response.json();
@@ -8,6 +8,7 @@ fetch(newURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const businesses = jsonObject['business'];
+
     for (let i = 0; i < businesses.length; i++ ) {
         let card = document.createElement('section');
         card.setAttribute("id","card" + i);
